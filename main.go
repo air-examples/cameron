@@ -10,7 +10,7 @@ import (
 
 func main() {
 	air.GET("/", index)
-	air.GET("/identicon", identicon)
+	air.GET("/identicons/:Name", identicon)
 	air.Serve()
 }
 
@@ -20,16 +20,20 @@ func index(req *air.Request, res *air.Response) error {
 <html>
   <head>
     <title>Cameron</title>
+    <meta name="description" content="Cameron - An avatar generator for Go.">
   </head>
 
   <body>
+    <h1>Cameron - An avatar generator for Go.</h1>
+
+    <h2>Identicons</h2>
     <ul>
-      <li><a href="/identicon?data=Robb+Stark">Identicon (Robb Stark)</a></li>
-      <li><a href="/identicon?data=Jon+Snow">Identicon (Jon Snow)</a></li>
-      <li><a href="/identicon?data=Sansa+Stark">Identicon (Sansa Stark)</a></li>
-      <li><a href="/identicon?data=Arya+Stark">Identicon (Arya Stark)</a></li>
-      <li><a href="/identicon?data=Bran+Stark">Identicon (Bran Stark)</a></li>
-      <li><a href="/identicon?data=Rickon+Stark">Identicon (Rickon Stark)</a></li>
+      <li><a href="/identicons/Robb Stark">Robb Stark's identicon</a></li>
+      <li><a href="/identicons/Jon Snow">Jon Snow's identicon</a></li>
+      <li><a href="/identicons/Sansa Stark">Sansa Stark's identicon</a></li>
+      <li><a href="/identicons/Arya Stark">Arya Stark's identicon</a></li>
+      <li><a href="/identicons/Bran Stark">Bran Stark's identicon</a></li>
+      <li><a href="/identicons/Rickon Stark">Rickon Stark's identicon</a></li>
     </ul>
   </body>
 </html>
@@ -40,7 +44,7 @@ func identicon(req *air.Request, res *air.Response) error {
 	buf := &bytes.Buffer{}
 	jpeg.Encode(
 		buf,
-		cameron.NewIdenticon([]byte(req.Params["data"]), 540, 50),
+		cameron.Identicon([]byte(req.Params["Name"]), 540, 50),
 		&jpeg.Options{
 			Quality: 100,
 		},
