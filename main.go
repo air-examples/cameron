@@ -49,5 +49,6 @@ func identicon(req *air.Request, res *air.Response) error {
 			Quality: 100,
 		},
 	)
-	return res.Blob("image/jpeg", buf.Bytes())
+	res.Headers["Content-Type"] = "image/jpeg"
+	return res.Blob(buf.Bytes())
 }
