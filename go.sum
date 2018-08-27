@@ -12,6 +12,8 @@ github.com/sheng/air v0.0.0-20180825092652-bbcbb92d4678 h1:fwzcKEEyfMUyrBlsMhpAV
 github.com/sheng/air v0.0.0-20180825092652-bbcbb92d4678/go.mod h1:dsGDc9ldiQYHIl0D5L+J6zFonjYr8CKOMfA89ebk+Qs=
 github.com/sheng/cameron v0.0.0-20180825093129-1c072c39b315 h1:yL8H11GwLcaU1RdiYYcl8stRo6ERM4RYXRU9xyxDv1I=
 github.com/sheng/cameron v0.0.0-20180825093129-1c072c39b315/go.mod h1:dvnwDdbA+QTNNrnrhz8tFtU4HYYbc04jeZefq+eWs6c=
+github.com/sheng/cameron v0.0.0-20180827051715-a3a398f6923e h1:UwKY8spN2hNvl+yzAurBZKfZc5eT6bvrJrLKpIGPzaY=
+github.com/sheng/cameron v0.0.0-20180827051715-a3a398f6923e/go.mod h1:dvnwDdbA+QTNNrnrhz8tFtU4HYYbc04jeZefq+eWs6c=
 github.com/stretchr/testify v1.2.2 h1:bSDNvY7ZPG5RlJ8otE/7V6gMiyenm9RtJ7IUVIAoJ1w=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 github.com/tdewolff/minify v2.3.5+incompatible h1:oFxBKxTIY1F/1DEJhLeh/T507W56JqZtWVrawFcdadI=
@@ -22,6 +24,8 @@ github.com/tdewolff/test v0.0.0-20171106182207-265427085153 h1:B1Z2txQ2QI9nsWELe
 github.com/tdewolff/test v0.0.0-20171106182207-265427085153/go.mod h1:DiQUlutnqlEvdvhSn2LPGy4TFwRauAaYDsL+683RNX4=
 golang.org/x/net v0.0.0-20180824152047-4bcd98cce591 h1:4S2XUgvg3hUNTvxI307qkFPb9zKHG3Nf9TXFzX/DZZI=
 golang.org/x/net v0.0.0-20180824152047-4bcd98cce591/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
+golang.org/x/net v0.0.0-20180826012351-8a410e7b638d h1:g9qWBGx4puODJTMVyoPrpoxPFgVGd+z1DZwjfRu4d0I=
+golang.org/x/net v0.0.0-20180826012351-8a410e7b638d/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
 golang.org/x/sys v0.0.0-20180824143301-4910a1d54f87 h1:GqwDwfvIpC33dK9bA1fD+JiDUNsuAiQiEkpHqUKze4o=
 golang.org/x/sys v0.0.0-20180824143301-4910a1d54f87/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
 golang.org/x/text v0.3.0 h1:g61tztE5qeGQ89tm6NTjjM9VPIm088od1l6aSorWRWg=
