@@ -10,10 +10,8 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/sheng/air v0.0.0-20180825092652-bbcbb92d4678 h1:fwzcKEEyfMUyrBlsMhpAVEZSfM8YWqRBSv02G4MkFl8=
 github.com/sheng/air v0.0.0-20180825092652-bbcbb92d4678/go.mod h1:dsGDc9ldiQYHIl0D5L+J6zFonjYr8CKOMfA89ebk+Qs=
-github.com/sheng/cameron v0.0.0-20180825093129-1c072c39b315 h1:yL8H11GwLcaU1RdiYYcl8stRo6ERM4RYXRU9xyxDv1I=
-github.com/sheng/cameron v0.0.0-20180825093129-1c072c39b315/go.mod h1:dvnwDdbA+QTNNrnrhz8tFtU4HYYbc04jeZefq+eWs6c=
-github.com/sheng/cameron v0.0.0-20180827051715-a3a398f6923e h1:UwKY8spN2hNvl+yzAurBZKfZc5eT6bvrJrLKpIGPzaY=
-github.com/sheng/cameron v0.0.0-20180827051715-a3a398f6923e/go.mod h1:dvnwDdbA+QTNNrnrhz8tFtU4HYYbc04jeZefq+eWs6c=
+github.com/sheng/cameron v0.0.0-20180827075604-0775ac21e6de h1:r/uBXP40xyiA3GV+PtqKFAc6uBuVK2sXzs5fiYYH15A=
+github.com/sheng/cameron v0.0.0-20180827075604-0775ac21e6de/go.mod h1:dvnwDdbA+QTNNrnrhz8tFtU4HYYbc04jeZefq+eWs6c=
 github.com/stretchr/testify v1.2.2 h1:bSDNvY7ZPG5RlJ8otE/7V6gMiyenm9RtJ7IUVIAoJ1w=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 github.com/tdewolff/minify v2.3.5+incompatible h1:oFxBKxTIY1F/1DEJhLeh/T507W56JqZtWVrawFcdadI=
