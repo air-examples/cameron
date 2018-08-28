@@ -41,9 +41,9 @@ func index(req *air.Request, res *air.Response) error {
 }
 
 func identicon(req *air.Request, res *air.Response) error {
-	buf := &bytes.Buffer{}
+	buf := bytes.Buffer{}
 	jpeg.Encode(
-		buf,
+		&buf,
 		cameron.Identicon([]byte(req.Params["Name"]), 540, 60),
 		&jpeg.Options{
 			Quality: 100,
