@@ -10,8 +10,8 @@ github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZb
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/sheng/air v0.0.0-20180828165243-bddee91599ac h1:bdCqI3eysI1ew7BM368pLVGHC767kh0b1ObQMkXMB6Q=
 github.com/sheng/air v0.0.0-20180828165243-bddee91599ac/go.mod h1:kXKGwRidLalqin3yHrJfDhq3kECJ2DKVF5xVLOqIAQo=
-github.com/sheng/cameron v0.0.0-20180827075604-0775ac21e6de h1:r/uBXP40xyiA3GV+PtqKFAc6uBuVK2sXzs5fiYYH15A=
-github.com/sheng/cameron v0.0.0-20180827075604-0775ac21e6de/go.mod h1:dvnwDdbA+QTNNrnrhz8tFtU4HYYbc04jeZefq+eWs6c=
+github.com/sheng/cameron v0.0.0-20180829080330-94a20c7a1723 h1:VpYmGg82Zsg6mYniRPFtElrqIb9sR6PVsJIQaeSnx0c=
+github.com/sheng/cameron v0.0.0-20180829080330-94a20c7a1723/go.mod h1:dvnwDdbA+QTNNrnrhz8tFtU4HYYbc04jeZefq+eWs6c=
 github.com/stretchr/testify v1.2.2 h1:bSDNvY7ZPG5RlJ8otE/7V6gMiyenm9RtJ7IUVIAoJ1w=
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 github.com/tdewolff/minify v2.3.5+incompatible h1:oFxBKxTIY1F/1DEJhLeh/T507W56JqZtWVrawFcdadI=
