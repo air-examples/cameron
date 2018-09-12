@@ -1,6 +1,6 @@
 # Cameron
 
-A web application for the [Cameron](https://github.com/sheng/cameron).
+A web application for the [Cameron](https://github.com/aofei/cameron).
 
 ## Installation
 

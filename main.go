@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"image/jpeg"
 
-	"github.com/sheng/air"
-	"github.com/sheng/cameron"
+	"github.com/aofei/air"
+	"github.com/aofei/cameron"
 )
 
 func main() {

@@ -1,6 +1,6 @@
 module github.com/air-examples/cameron
 
 require (
-	github.com/sheng/air v0.0.0-20180910140800-699c6be42cd8
-	github.com/sheng/cameron v0.0.0-20180829080330-94a20c7a1723
+	github.com/aofei/air v0.0.0-20180912051625-ef2f179c991a
+	github.com/aofei/cameron v0.0.0-20180912060230-24f8471b6d8c
 )
