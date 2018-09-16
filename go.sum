@@ -1,7 +1,7 @@
 github.com/BurntSushi/toml v0.3.0 h1:e1/Ivsx3Z0FVTV0NSOv/aVgbUWyQuzj7DDnFblkRvsY=
 github.com/BurntSushi/toml v0.3.0/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
-github.com/aofei/air v0.0.0-20180913162303-73518e3ceb6c h1:ISLRmtds7EF7jN/mUij7dIAicjsz6Tx/7CgdjZh4yvE=
-github.com/aofei/air v0.0.0-20180913162303-73518e3ceb6c/go.mod h1:9CmLVCy4CreT5Nn/fEjY4/aGgWhb5FUkG4IyD1BsHfk=
+github.com/aofei/air v0.0.0-20180916055441-b76f4813c22f h1:PUL9xdq3Zy72EnTB7nbScuLhEN+NIC9jhfy+7PynIiw=
+github.com/aofei/air v0.0.0-20180916055441-b76f4813c22f/go.mod h1:9CmLVCy4CreT5Nn/fEjY4/aGgWhb5FUkG4IyD1BsHfk=
 github.com/aofei/cameron v0.0.0-20180915134336-5f4de05ce71d h1:VkObTAuvkWRDs826kc2lf7ajhAxHewL5H3MjWiGOjg0=
 github.com/aofei/cameron v0.0.0-20180915134336-5f4de05ce71d/go.mod h1:cIFe85OAf7KgYfC4JlxJZXbyOj7FRy+V+4OiazOsin0=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
