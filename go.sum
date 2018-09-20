@@ -1,7 +1,7 @@
 github.com/BurntSushi/toml v0.3.0 h1:e1/Ivsx3Z0FVTV0NSOv/aVgbUWyQuzj7DDnFblkRvsY=
 github.com/BurntSushi/toml v0.3.0/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
-github.com/aofei/air v0.0.0-20180916184755-afcb6d9aaee4 h1:MARY7OE/41K4X8LEV9N3Y8pX2QudOJGLQMsB3Tb5Vjg=
-github.com/aofei/air v0.0.0-20180916184755-afcb6d9aaee4/go.mod h1:9CmLVCy4CreT5Nn/fEjY4/aGgWhb5FUkG4IyD1BsHfk=
+github.com/aofei/air v0.0.0-20180920072406-94891ddeb8d9 h1:WTy0of46hThOu8XFvhLuXoaq8GKVLb2sSs2Ce69Azzg=
+github.com/aofei/air v0.0.0-20180920072406-94891ddeb8d9/go.mod h1:79nojP7QDQe0Bgb6RpPttzMA4BQtSXcHvAZGgAeWS9E=
 github.com/aofei/cameron v0.0.0-20180915134336-5f4de05ce71d h1:VkObTAuvkWRDs826kc2lf7ajhAxHewL5H3MjWiGOjg0=
 github.com/aofei/cameron v0.0.0-20180915134336-5f4de05ce71d/go.mod h1:cIFe85OAf7KgYfC4JlxJZXbyOj7FRy+V+4OiazOsin0=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
@@ -22,7 +22,7 @@ github.com/tdewolff/test v0.0.0-20171106182207-265427085153 h1:B1Z2txQ2QI9nsWELe
 github.com/tdewolff/test v0.0.0-20171106182207-265427085153/go.mod h1:DiQUlutnqlEvdvhSn2LPGy4TFwRauAaYDsL+683RNX4=
 golang.org/x/net v0.0.0-20180911220305-26e67e76b6c3 h1:czFLhve3vsQetD6JOJ8NZZvGQIXlnN3/yXxbT6/awxI=
 golang.org/x/net v0.0.0-20180911220305-26e67e76b6c3/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
-golang.org/x/sys v0.0.0-20180909124046-d0be0721c37e h1:o3PsSEY8E4eXWkXrIP9YJALUkVZqzHJT5DOasTyn8Vs=
-golang.org/x/sys v0.0.0-20180909124046-d0be0721c37e/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
+golang.org/x/sys v0.0.0-20180919162611-1561086e645b h1:AnKkq1vWZRACfUpS3PTWIN1eRYErnwW+iPP47aL3+MM=
+golang.org/x/sys v0.0.0-20180919162611-1561086e645b/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
 golang.org/x/text v0.3.0 h1:g61tztE5qeGQ89tm6NTjjM9VPIm088od1l6aSorWRWg=
 golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=

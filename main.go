@@ -15,7 +15,7 @@ func main() {
 }
 
 func index(req *air.Request, res *air.Response) error {
-	return res.HTML(`
+	return res.WriteHTML(`
 <!DOCTYPE html>
 <html>
   <head>
@@ -44,11 +44,20 @@ func identicon(req *air.Request, res *air.Response) error {
 	buf := bytes.Buffer{}
 	jpeg.Encode(
 		&buf,
-		cameron.Identicon([]byte(req.Params["Name"]), 540, 60),
+		cameron.Identicon(
+			[]byte(req.Params["Name"].FirstValue().String()),
+			540,
+			60,
+		),
 		&jpeg.Options{
 			Quality: 100,
 		},
 	)
-	res.Headers["Content-Type"] = "image/jpeg"
-	return res.Blob(buf.Bytes())
+
+	res.Headers["content-type"] = &air.Header{
+		Name:   "content-type",
+		Values: []string{"image/jpeg"},
+	}
+
+	return res.WriteBlob(buf.Bytes())
 }
