@@ -12,7 +12,7 @@ $ go get github.com/air-examples/cameron
 
 done.
 
-> The only requirement is the [Go](https://golang.org), at least v1.8.
+> The only requirement is the [Go](https://golang.org), at least v1.9.
 
 ## Usage
 
