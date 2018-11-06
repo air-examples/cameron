@@ -45,7 +45,7 @@ func identicon(req *air.Request, res *air.Response) error {
 	jpeg.Encode(
 		&buf,
 		cameron.Identicon(
-			[]byte(req.Params["Name"].Value().String()),
+			[]byte(req.Param("Name").Value().String()),
 			540,
 			60,
 		),
@@ -54,10 +54,7 @@ func identicon(req *air.Request, res *air.Response) error {
 		},
 	)
 
-	res.Headers["content-type"] = &air.Header{
-		Name:   "content-type",
-		Values: []string{"image/jpeg"},
-	}
+	res.SetHeader("content-type", "image/jpeg")
 
 	return res.WriteBlob(buf.Bytes())
 }
