@@ -9,9 +9,10 @@ import (
 )
 
 func main() {
-	air.GET("/", index)
-	air.GET("/identicons/:Name", identicon)
-	air.Serve()
+	a := air.Default
+	a.GET("/", index)
+	a.GET("/identicons/:Name", identicon)
+	a.Serve()
 }
 
 func index(req *air.Request, res *air.Response) error {
@@ -54,7 +55,7 @@ func identicon(req *air.Request, res *air.Response) error {
 		},
 	)
 
-	res.SetHeader("content-type", "image/jpeg")
+	res.Header.Set("Content-Type", "image/jpeg")
 
 	return res.WriteBlob(buf.Bytes())
 }
