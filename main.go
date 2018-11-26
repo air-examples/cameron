@@ -57,5 +57,5 @@ func identicon(req *air.Request, res *air.Response) error {
 
 	res.Header.Set("Content-Type", "image/jpeg")
 
-	return res.WriteBlob(buf.Bytes())
+	return res.Write(bytes.NewReader(buf.Bytes()))
 }
