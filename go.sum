@@ -6,8 +6,8 @@ github.com/VictoriaMetrics/fastcache v1.3.2 h1:AcYQrJA1HiXy23hqOK1yvdWmKuGzOQbVA
 github.com/VictoriaMetrics/fastcache v1.3.2/go.mod h1:CH4+tdFBMyTCU9HV/ifYqJvn7ECWfK1E7ES6eWt6F2o=
 github.com/allegro/bigcache v1.1.0 h1:MLuIKTjdxDc+qsG2rhjsYjsHQC5LUGjIWzutg7M+W68=
 github.com/allegro/bigcache v1.1.0/go.mod h1:Cb/ax3seSYIx7SuZdm2G2xzfwmv3TPSk2ucNfQESPXM=
-github.com/aofei/air v0.1.0 h1:JhUweblwTzum9kdObMyEIdFDN+cq+UoEFoSOiZyI4Ho=
-github.com/aofei/air v0.1.0/go.mod h1:yjjImgmjVdm1slvMOWJzQM9iI/Ihnjy6GSDIP8Url4Q=
+github.com/aofei/air v0.2.0 h1:1PuxnvkN8WcRVmKka37xKZYvah/kIxGpeVQGqyhlvW8=
+github.com/aofei/air v0.2.0/go.mod h1:R28jqVKkxy97oRJA4bydKsNzzKlV0X/ZzO4t+R4cP78=
 github.com/aofei/cameron v1.0.0 h1:H9UKqAywOPeAOx0s7fP5qf7UjC03I9XHGysD1A5y2Uc=
 github.com/aofei/cameron v1.0.0/go.mod h1:cIFe85OAf7KgYfC4JlxJZXbyOj7FRy+V+4OiazOsin0=
 github.com/cespare/xxhash v1.1.0 h1:a6HrQnmkObjyL+Gs60czilIUGqrzKutQD6XZog3p+ko=
@@ -54,8 +54,8 @@ golang.org/x/sync v0.0.0-20181108010431-42b317875d0f h1:Bl/8QSvNqXvPGPGXa2z5xUTm
 golang.org/x/sync v0.0.0-20181108010431-42b317875d0f/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=
 golang.org/x/sys v0.0.0-20181031143558-9b800f95dbbc h1:SdCq5U4J+PpbSDIl9bM0V1e1Ug1jsnBkAFvTs1htn7U=
 golang.org/x/sys v0.0.0-20181031143558-9b800f95dbbc/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
-golang.org/x/sys v0.0.0-20181210030007-2a47403f2ae5 h1:SlFRMb9PEnqzqnBRCynVOhxv4vHjB2lnIoxK6p5nzFM=
-golang.org/x/sys v0.0.0-20181210030007-2a47403f2ae5/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
+golang.org/x/sys v0.0.0-20181211161752-7da8ea5c8182 h1:3jwI9dC+BuoXWS+QtR/HhfGTGTuB6ZzL6II6S1IuVvo=
+golang.org/x/sys v0.0.0-20181211161752-7da8ea5c8182/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
 golang.org/x/text v0.3.0 h1:g61tztE5qeGQ89tm6NTjjM9VPIm088od1l6aSorWRWg=
 golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
 google.golang.org/appengine v1.3.0 h1:FBSsiFRMz3LBeXIomRnVzrQwSDj4ibvcRexLG0LZGQk=
