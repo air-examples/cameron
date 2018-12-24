@@ -10,6 +10,7 @@ import (
 
 func main() {
 	a := air.Default
+	a.DebugMode = true
 	a.GET("/", index)
 	a.GET("/identicons/:Name", identicon)
 	a.Serve()
