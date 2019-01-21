@@ -6,8 +6,8 @@ github.com/VictoriaMetrics/fastcache v1.3.2 h1:AcYQrJA1HiXy23hqOK1yvdWmKuGzOQbVA
 github.com/VictoriaMetrics/fastcache v1.3.2/go.mod h1:CH4+tdFBMyTCU9HV/ifYqJvn7ECWfK1E7ES6eWt6F2o=
 github.com/allegro/bigcache v1.1.0 h1:MLuIKTjdxDc+qsG2rhjsYjsHQC5LUGjIWzutg7M+W68=
 github.com/allegro/bigcache v1.1.0/go.mod h1:Cb/ax3seSYIx7SuZdm2G2xzfwmv3TPSk2ucNfQESPXM=
-github.com/aofei/air v0.6.3 h1:Zqo5AKEZPUHVPLGHtk0FvV65/kKeslautd8OMXchlO0=
-github.com/aofei/air v0.6.3/go.mod h1:9gdQHK8mWMAMwDnS1izmPdu/qvP1WGDznhBxxzuR5lM=
+github.com/aofei/air v0.7.0 h1:R96doHo20W+zFL8HiqKQ8ausphhmFnZTGTbBPsseUwQ=
+github.com/aofei/air v0.7.0/go.mod h1:9gdQHK8mWMAMwDnS1izmPdu/qvP1WGDznhBxxzuR5lM=
 github.com/aofei/cameron v1.1.0 h1:17q9yLxY3cG359+Yuvt59U719E1nsP+hXU+Q+9yjg9M=
 github.com/aofei/cameron v1.1.0/go.mod h1:yiHFSSrPQ+PG4XXEDMEZao1srgEY4Cl0zyLQc7De/BE=
 github.com/aofei/mimesniffer v1.1.0 h1:2VQ4YcuC8Cnyh+FjJZQJLx6TRzCHdEal9JzMVgNssJ4=
