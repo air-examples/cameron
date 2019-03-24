@@ -44,15 +44,14 @@ func index(req *air.Request, res *air.Response) error {
 }
 
 func identicon(req *air.Request, res *air.Response) error {
-	pn := req.Param("Name")
-	if pn == nil {
-		return a.NotFoundHandler(req, res)
-	}
-
 	buf := bytes.Buffer{}
 	jpeg.Encode(
 		&buf,
-		cameron.Identicon([]byte(pn.Value().String()), 540, 60),
+		cameron.Identicon(
+			[]byte(req.Param("Name").Value().String()),
+			540,
+			60,
+		),
 		&jpeg.Options{
 			Quality: 100,
 		},
