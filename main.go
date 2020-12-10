@@ -47,11 +47,7 @@ func identicon(req *air.Request, res *air.Response) error {
 	buf := bytes.Buffer{}
 	jpeg.Encode(
 		&buf,
-		cameron.Identicon(
-			[]byte(req.Param("Name").Value().String()),
-			540,
-			60,
-		),
+		cameron.Identicon(req.ParamValue("Name").Bytes(), 540, 60),
 		&jpeg.Options{
 			Quality: 100,
 		},
